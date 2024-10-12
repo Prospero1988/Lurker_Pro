@@ -84,21 +84,23 @@ def search_folders(default_dir, pattern, output_path, progress_bar):
                                 print(f"Error while extracting RAR archive file {source_folder}: {e}")
                             print(f"Found and copied folder: {source_folder} -> {destination_path}: Archive file in: {archive_path}")
 
-def hello():
-    """Displays a welcome screen."""
-    info = """
+
+    
+"""
 A script for recursively searching a specified folder
 (default is NMR spectrum disk) to find specific files.
 Search based on a list of keywords (or filenames).
 The script also searches the contents of RAR and ZIP archives.
-    """
-    # Clear the console and display the ASCII art logo
-    subprocess.call('cls' if os.name == 'nt' else 'clear', shell=True)
-    print('')
-    ascii_art= text2art("LURKER PRO v3")
-    print('')
+"""
+    
+"""Displays a welcome screen."""
+# Clear the console and display the ASCII art logo
+subprocess.call('cls' if os.name == 'nt' else 'clear', shell=True)
+print('')
+ascii_art= text2art("LURKER+PRO")
+print(ascii_art)
+print('')
 
-hello()
 
 # Folder management
 default_dir = r'\\data02.celon.local\NMR'
