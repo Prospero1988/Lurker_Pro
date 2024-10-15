@@ -51,8 +51,9 @@ python Lurker_PRO_v3.py
 ### Input Parameters
 
 1. **Folder to Search**:
-   - The script first asks if you want to search the default NMR folder (`\\data02.celon.local\NMR`).
-   - If you choose "no" (`n`), you can specify a different folder path.
+   - The script states that the search will be executed in the default directory where the script was run.
+   - It then asks if the user wants to select a directory to search other than the default one.
+   - If you choose "yes" (`y`), you can specify a different folder path to be searched.
    
 2. **Keywords**:
    - The script will prompt you to enter one or more keywords to search for. Separate multiple keywords with commas.
@@ -95,7 +96,7 @@ Once the search is completed, the script waits for the user to press "Enter" bef
 You can modify the script for more complex searches or integrations. The search mechanism is based on regex patterns, so the regular expression can be adapted to match specific file types, file names, or folder names.
 
 ### Default Directory
-By default, the script searches in the NMR directory (`\\data02.celon.local\NMR`). You can change this path in the script or provide a different path during execution.
+By default, the script searches in the directory in which it runs by function os.getcwd(). You can change this path in the script or provide a different path during execution.
 
 ## License
 
