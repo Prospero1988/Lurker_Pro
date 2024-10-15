@@ -1,8 +1,8 @@
 ![Logo](logo_wide2.jpg)
 
-# Lurker PRO v3
+# Lurker PRO
 
-**Lurker PRO v3** is a powerful Python script designed to recursively search through directories, including the contents of ZIP and RAR archives, for specific files or folders based on user-provided keywords. It offers a simple, user-friendly command-line interface for conducting comprehensive file searches. The search results are saved in a specified output directory.
+**Lurker PRO** is a powerful Python script designed to recursively search through directories, including the contents of ZIP and RAR archives, for specific files or folders based on user-provided keywords. It offers a simple, user-friendly command-line interface for conducting comprehensive file searches. The search results are saved in a specified output directory.
 
 ![Logo](logo.png)
 
