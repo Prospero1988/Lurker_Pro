@@ -1,3 +1,4 @@
+![Logo](logo_wide2.jpg)
 
 # Lurker PRO v3
 
